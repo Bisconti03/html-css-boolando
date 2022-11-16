@@ -135,3 +135,15 @@ p {
     opacity: 0;
 }
 
+footer {
+    background-color: #1a1a1a;
+    height: 90px;
+}
+
+
+.footer-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
