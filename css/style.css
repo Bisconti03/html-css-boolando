@@ -4,9 +4,16 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 header {
     background-color: #ff6900 ;
     height: 70px;
+    position: fixed;
+    z-index: 5;
+    width: 100%;
 }
 
 .container {
@@ -27,6 +34,20 @@ header {
     width: 130px;
     
 }
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 4px;
+}
+
+i {
+    color: white;
+    padding: 4px;
+    
+}
+
+
 
 main {
     display: flex;
@@ -88,6 +109,10 @@ main > div > span {
 
 }
 
+.black {
+    color: black;
+}
+
 
 
 
@@ -145,5 +170,18 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: 90px;
+    align-items: center;
+    
+    
+}
+
+.white {
+    color: white;
+}
+
+.margin-bottom {
+
+margin-bottom: 5px;
 }
 
