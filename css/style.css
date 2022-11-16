@@ -3,3 +3,135 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    background-color: #ff6900 ;
+    height: 70px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.flex-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.logo {
+    width: 130px;
+    
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 100px;
+    
+    
+    
+}
+
+
+main > div {
+    width: calc(33% - 20px);
+    margin-bottom: 70px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+main > div > img {
+    width: 100%;
+    
+    
+    
+    
+}
+
+.disappear {
+    position: relative;
+
+
+}
+
+
+
+.second-img {
+    position: absolute;
+    left: 0;
+}
+
+
+
+main > div > span {
+    position: absolute;
+    bottom: 35px;
+    left: 0;
+}
+
+.right-item {
+    position: absolute;
+    bottom: 35px;
+    left: 57px;
+}
+
+.top-item {
+    position: absolute;
+    right: 0;
+    top: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+.red-sale {
+    color: white;
+    background-color: #ff0000 ;
+    padding: 5px 10px;
+
+}
+
+.green-text {
+    color: white;
+    background-color: #007f00;
+    padding: 5px 10px ;
+}
+.heart {
+    background-color: white;
+    padding: 15px;
+    
+}
+
+.testi {
+    position: absolute;
+    
+}
+
+p {
+    display: inline;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.red {
+    color: red;
+}
+
+.opacity:hover {
+    opacity: 0;
+}
+
