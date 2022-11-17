@@ -156,7 +156,7 @@ p {
     color: red;
 }
 
-.opacity:hover {
+.image-hover:hover .opacity {
     opacity: 0;
 }
 
